@@ -14,3 +14,7 @@ I will be using JavaScript and React to apply these concepts practically. The co
 - Write programs using a single paradigm.
 - Write programs using multiple paradigms.
 - Decide when particular programming paradigms will and will not be a proper choice for particular problems.
+
+## Assignment 1
+
+Coming Soon...
