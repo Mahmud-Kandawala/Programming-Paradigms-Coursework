@@ -15,6 +15,6 @@ I will be using Python and its libraries to apply these concepts practically. Th
 - Write programs using multiple paradigms.
 - Decide when particular programming paradigms will and will not be a proper choice for particular problems.
 
-## Assignment 1 (Objects)
+## Assignment 1 (OOP)
 
 
