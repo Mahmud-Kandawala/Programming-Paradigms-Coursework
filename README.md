@@ -39,3 +39,6 @@ I will be using Python and its libraries to apply these concepts practically. Th
 7) So far, we have defined a class, constructed a single object, used that object, and then thrown the object away. However, the real power in object-oriented programming happens when we construct multiple instances of our class. When we construct multiple objects from our class, we might want to set up different initial values for each of the objects. We can pass data to the constructors to give each object a different initial value:
 
 8) Another powerful feature of object-oriented programming is the ability to create a new class by extending an existing class. When extending a class, we call the original class the parent class and the new class the child class.
+
+## Assignment 2 (Abstract Factory Design Pattern)
+...
