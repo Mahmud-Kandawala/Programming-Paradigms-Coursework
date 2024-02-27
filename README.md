@@ -41,4 +41,23 @@ I will be using Python and its libraries to apply these concepts practically. Th
 8) Another powerful feature of object-oriented programming is the ability to create a new class by extending an existing class. When extending a class, we call the original class the parent class and the new class the child class.
 
 ## Assignment 2 (Abstract Factory Design Pattern)
-...
+
+1) First, we import the required modules for abstract classes and methods. `ABC (Abstract Base Class)` which helps in creating abstract classes which cannot be instantiated and typically contain one or more abstract methods. The second method is `abstractmethod` which is a decorator indicating abstract methods, which must be implemented by any subclass of the abstract class.
+
+2) Define the abstract based class for the factory. `AbstractFactory` is an abstract class that declares methods for creating product. Products are chairs and their accessories in this context.
+
+3) Define concrete factories. We implement concrete factories for creating specific product families. Our concrete factories are ModernChairFactory and VictorianChairFactory which inherit from AbstractFactory and implement the creation methods to return concrete products.
+
+4) Next, we have to define our product interfaces. These are abstract classes for our products. AbstractChair and AbstractAccessory serve as base interfaces for chair and accessory products, respectively, declaring methods that concrete products must implement.
+
+5) After that, we create concrete product classes for each product family. Concrete product classes (ModernChair, VictorianChair, ModernCushion, and VictorianCushion) implement the specific functionalities of the products, adhering to the interfaces defined by their abstract base classes.
+
+6) We then implement our client code that works with factories and products through their abstract interfaces. The client_code function demonstrates how to interact with the products through the abstract factory and product interfaces. This allows changing product families without altering the client code.
+
+7) Lastly, we test the implementation, executing the client code with different factories to test the abstract factory implementation. This block tests the abstract factory pattern by instantiating different concrete factories and passing them to the client_code function. It demonstrates the pattern's flexibility and how it enables the client code to use various product families interchangeably.  
+
+
+
+
+
+
