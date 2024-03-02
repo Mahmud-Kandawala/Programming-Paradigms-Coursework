@@ -75,5 +75,17 @@ I will be using Python and its libraries to apply these concepts practically. Th
 6) Finally, we demonstrate how to use the Builder pattern in a client code scenario. This includes creating a director, setting a builder, and initiating the building process to create different types of meals.
 
 
+## Assignment 4 (Singleton Design Pattern)
+
+1) Create the Government class with the necessary attributes and methods.
+
+2) Write the `__init__` method to initialize the object with the provided country, capital, and leader.
+
+3) Define the `get_instance` class method to ensure only one instance of the Government class is created.
+
+4) Add methods for displaying information, changing the leader, and getting GDP.
+
+5) Demonstrate the usage of the Government class in the main function.
+
 
 
