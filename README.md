@@ -60,17 +60,17 @@ I will be using Python and its libraries to apply these concepts practically. Th
 
 1) First, we import the necessary Python libraries and modules that our example will rely on. This includes future annotations for forward reference of types, the ABC module for creating abstract base classes, and the abstractmethod decorator to define abstract methods within those classes. We also import Any from the typing module for type hinting.
    
-2) Next, we define an abstract base class (MealBuilder) that specifies the blueprint for creating different parts of the meal. This class uses the @abstractmethod decorator to indicate that all subclasses must implement these methods.
-   - meal property: A method to retrieve the meal object being built.
-   - prepare_starter: Method to prepare the starter part of the meal.
-   - prepare_main_course: Method to prepare the main course part of the meal.
-   - prepare_dessert: Method to prepare the dessert part of the meal.
+2) Next, we define an abstract base `class (MealBuilder)` that specifies the blueprint for creating different parts of the meal. This class uses the `@abstractmethod` decorator to indicate that all subclasses must implement these methods.
+   - `meal property`: A method to retrieve the meal object being built.
+   - `prepare_starter`: Method to prepare the starter part of the meal.
+   - `prepare_main_course`: Method to prepare the main course part of the meal.
+   - `prepare_dessert`: Method to prepare the dessert part of the meal.
 
-3) We then create a concrete class (ItalianMealBuilder) that implements the MealBuilder interface. This class is responsible for building a specific type of meal, in this case, an Italian meal, by providing concrete implementations of the building steps defined in the MealBuilder class.
+3) We then create a concrete `class (ItalianMealBuilder)` that implements the MealBuilder interface. This class is responsible for building a specific type of meal, in this case, an Italian meal, by providing concrete implementations of the building steps defined in the MealBuilder class.
 
 4) After defining the builder, we need to create the product class (ItalianMeal) that the builder will construct. This class represents a complex object (a meal) that is being built part by part.
 
-5) The CulinaryDirector class is responsible for executing the building steps in a specific sequence. This class is optional but useful for encapsulating and abstracting the construction process from the client.
+5) The `CulinaryDirector class` is responsible for executing the building steps in a specific sequence. This class is optional but useful for encapsulating and abstracting the construction process from the client.
 
 6) Finally, we demonstrate how to use the Builder pattern in a client code scenario. This includes creating a director, setting a builder, and initiating the building process to create different types of meals.
 
