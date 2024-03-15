@@ -88,4 +88,10 @@ I will be using Python and its libraries to apply these concepts practically. Th
 5) Demonstrate the usage of the Government class in the main function.
 
 
+## Assignment 5 (Facade Design Pattern)
 
+The primary goal of this assignment is to enhance the understanding and practical application of the Facade Design Pattern in simplifying complex systems. You are to provide with a basic implementation of an event management system that incorporates several subsystems: `VenueBooking`, `CateringService`, `PeopleCount`, and `NotificationSystem`. Your task is to refine this system, ensuring it offers a streamlined interface to its clients while maintaining the flexibility and functionality of the underlying subsystems.
+
+## Assignment 6 (Proxy Design Pattern)
+
+This assignment aims to deepen your understanding of the Proxy Design Pattern by extending a simple file access control system. You will provide a basic implementation that includes a `RealFileAccess` class performing actual file operations, and a `ProxyFileAccess` class controlling access to `RealFileAccess.` You are required to provide an enhanced system by implementing additional features and demonstrating the Proxy Pattern's effectiveness in access control and operation management.
