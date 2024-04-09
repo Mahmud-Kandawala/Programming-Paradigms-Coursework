@@ -95,3 +95,5 @@ The primary goal of this assignment is to enhance the understanding and practica
 ## Assignment 6 (Proxy Design Pattern)
 
 This assignment aims to deepen your understanding of the Proxy Design Pattern by extending a simple file access control system. You will provide a basic implementation that includes a `RealFileAccess` class performing actual file operations, and a `ProxyFileAccess` class controlling access to `RealFileAccess.` You are required to provide an enhanced system by implementing additional features and demonstrating the Proxy Pattern's effectiveness in access control and operation management.
+
+## Assignment 7 (Chain of Responsibility)
